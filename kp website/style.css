@@ -1,0 +1,193 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+#banner {
+    width: 100%;
+    padding-top: 58px;
+    display: block;
+    border-bottom-color: dimgrey;
+}
+
+/* Navigation Bar */
+#nav {
+    background-color: white;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    padding: 20px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+}
+a.button {
+    color: dimgrey; 
+    text-decoration: none;
+    margin-right: 20px;
+    width: 100%;
+}
+/* a:hover {color:#F7D129} */
+#alive1 {color: #FDE636;} /*yellow */
+#alive2 {color: #EF2B2B;} /* red  */
+#alive3 {color: #14D356;} /* green */
+#alive4 {color: #394EEF;} /* blue */
+#alive5 {color: #EB23B5;} /* pink */
+#alive6 {color: #C01DF0;} /* purple */
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: dimgrey;
+    padding-right: 20px;
+    z-index: 1;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: black;
+    color: white;
+    background-color: dimgrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #14D356;
+    z-index: 1;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 1;
+}
+
+/* Home Page */
+h1.title {
+    color: #FDE636;
+}
+#bob {
+    width: 100%;
+    z-index: -2;
+}
+h1 {
+    z-index: 3;
+    font-size: 70px;
+    text-align: left;
+    float: center;
+}
+
+#me {
+    width: 50%;
+    padding-top: 50px;
+    float: left;
+}
+
+p.bio {
+    text-align: center;
+    padding-right: 40px;
+}
+/* About Page */
+
+#abt {
+    width: 100%;
+    padding-top: 70px;
+}
+
+p.resume {
+    text-align: center;
+    padding-right: 20px;
+    color: #EF2B2B;
+}
+/* Projects Page */
+/* Website Page */
+
+#proj {
+    width: 100%;
+    padding: 0px;
+    padding-top: 50px;
+    float:left;
+    display: inline-block;
+}
+/* Poster Page */
+#gif{
+    float: center;
+    display: inline-block;
+}
+
+#project1 {
+padding-top: 50px;
+}
+
+#giftext {
+    width: 100%;
+    display: inline-block;
+}
+/* Motion Graphic Page */
+/* Photography Page */
+
+/* CV Page */
+#cv {
+    padding-top: 70px;
+}
+
+h1 {
+    color: #EB23B5;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 50px;
+    color: #EB23B5;
+}
+h2.cvh2 {
+    color: #EB23B5;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 60px;
+    color: grey;
+}
+
+strong {
+    color: dimgrey;
+}
+
+/* Contact Page */
+#pic1 {
+    width: 40%;
+    padding: 25px;
+    padding-top: 100px;
+    float: left;
+
+}
+
+#contact {
+    padding-top: 100px;
+    text-align: left;
+    widows: 40%;
+    color: #C01DF0;
+}
+
+h2 {
+    color: #C01DF0;
+}
+p {
+    text-align: left;
+}
