@@ -97,7 +97,7 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
     display: block;
     z-index: 1;
 }
-.dropdown:active .dropdown-content {
+.proj-button:active .dropdown-content {
     display: block;
     z-index: 1;
 }
