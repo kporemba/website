@@ -88,12 +88,16 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 	border-radius: unset;
 }
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover a:focus {
+.dropdown-content a:hover {
     background-color: #14D356;
     z-index: 1;
 }
 /* Show the dropdown menu on hover */
-.dropdown:hover a:focus .dropdown-content {
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 1;
+}
+.dropdown:active .dropdown-content {
     display: block;
     z-index: 1;
 }
