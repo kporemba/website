@@ -101,6 +101,10 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
     display: block;
     z-index: 1;
 }
+.alive3:visited .dropdown-content {
+    display: block;
+    z-index: 1;
+}
 
 /* HOME PAGE */
 h1.title {
