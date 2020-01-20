@@ -93,7 +93,7 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
     z-index: 1;
 }
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover a:focus .dropdown-content {
     display: block;
     z-index: 1;
 }
@@ -189,6 +189,7 @@ p.resume {
 .image4 {
 	width: 100%;
 	align-self: center;
+	height: 100%;
 /*
 	margin-left: 10px;
 	margin-right: 30px;
@@ -263,6 +264,7 @@ p.resume {
 /*PHOTOGRAPHY PAGE*/
 .image {
 	width: 70%;
+	height: 100%;
 	padding: 20px;
 }
 .image:nth-child(-n+17) {
