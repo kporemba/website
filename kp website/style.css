@@ -133,7 +133,11 @@ p.bio {
 .gallery{
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: wrap;p.resume {
+    text-align: center;
+    padding-right: 20px;
+    color: #EF2B2B;
+}
 }
 .body {
 	text-align: center;
@@ -296,6 +300,11 @@ p {
 }
 strong {
     color: dimgrey;
+}
+p.resume2 {
+    text-align: center;
+    padding-right: 20px;
+    color: #EB23B5;
 }
 
 /* CONTACT PAGE */
