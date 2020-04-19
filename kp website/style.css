@@ -50,6 +50,38 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 	white-space: nowrap;
 }
 
+.tile{
+	max-width: 300px;
+	text-align: center;
+	padding: 8px;
+	background-color: aliceblue;
+	margin: 8px;
+	border-radius: 8px;
+}
+
+.tile > p {
+	padding-left: 0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.tile > a > img {
+	max-height: 200px;
+	max-width: 280px;
+}
+
+.tile-overview{
+	padding: 0;
+	margin: 10px;
+}
+
+.tiles{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .red-button{
 	background-color: #EF2B2B !important;
 }
@@ -122,6 +154,7 @@ h1 {
     text-align: left;
     float: center;
 }
+
 #me {
     width: 50%;
     padding-top: 50px;
@@ -243,6 +276,23 @@ p.resume {
 }
 
 /* Projects Page */
+#1{
+	width: 300px;
+	float: left;
+	display: flex;
+}
+#number {
+	width: 300px;
+}
+
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: grey;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 0px;
+}
+
 /* Website Page */
 #proj {
     width: 100%;
