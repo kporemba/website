@@ -58,34 +58,28 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 	margin: 8px;
 	border-radius: 8px;
 }
-
 .tile > p {
 	padding-left: 0;
 	text-align: center;
 	margin-bottom: 30px;
 }
-
 .tile > a > img {
 	max-height: 200px;
 	max-width: 280px;
 }
-
 .tile-overview{
 	padding: 0;
 	margin: 10px;
 }
-
 .tiles{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
 .red-button{
 	background-color: #EF2B2B !important;
 }
-
 .pink-button{
 	background-color: #EB23B5 !important;
 }
@@ -170,7 +164,6 @@ p.bio {
 	color: #EF2B2B;
 	text-align: center;
 	padding-left: 0;
-	
 	font-size: 50px;
 }
 .image2 {
@@ -204,9 +197,25 @@ p.resume {
 }
 .about-top{
 	display: flex;
+	margin-bottom: 16px;
+}
+.td-top{
+	display: flex;
+	margin-bottom: 16px;
+	flex-wrap: wrap;
+}
+.td-top-init{
+	display: flex;
+	margin-bottom: 100px;
+}
+.td-flex-container{
+	flex:1;
+	padding: 0 8px;
+	flex-basis: 400px;
 }
 .flex-container{
 	flex:1;
+	padding: 0 8px;
 }
 .flex-container#large{
 	flex:2;
@@ -228,7 +237,7 @@ p.resume {
 	text-align: center;
 	padding-top: 0px;
 }
-.image4 {
+.image40 {
 	width: 100%;
 	align-self: center;
 	height: 100%;
@@ -284,7 +293,6 @@ p.resume {
 #number {
 	width: 300px;
 }
-
 h3 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: grey;
@@ -301,24 +309,101 @@ h3 {
     display: inline-block;
 }
 /* Poster Page */
-#gif{
-    float: center;
-    display: inline-block;
+#fpos {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+}
+#fpos2 {
+	width: 40%;
+	padding-left: 30px;
+	float: left;
 }
 #gif1{
 	display: flex;
 	justify-content: center;
+	float: right;
+	width: 100%;
 }
-#giftext {
-    width: 100%;
-    display: flex;
-	margin-left: -60px;
-	justify-content: center;
+
+.CPA {
+	display: inline-flex;
+	flex-wrap: wrap;
 }
+
+.CPA-rev {
+	display: inline-flex;
+	flex-wrap: wrap-reverse;
+}
+
+.flex-CPA {
+	flex-basis: 300px;
+	flex-grow: 1;
+}
+
+.flex-CPA-image {
+	flex-basis: 200px;
+	flex-grow: 1;
+	padding: 30px;
+}
+
+.flex-CPA > p {
+	padding: 10px;
+	text-align: center;
+}
+
 .giftextparagraph{
 	text-align: center;
 }
-/* Motion Graphic Page */
+/* TD Page */
+#td {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: green;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 0px;
+}
+#td2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: green;
+	font-size: 25px;
+	text-align: left;
+	padding-top: 0px;
+}
+#cup {
+	width: 500px;
+}
+#group {
+	width: 400px;
+}
+.image4 {
+	width: 85%;
+	margin-left: 10px;
+	margin-right: 30px;
+	box-shadow: 20px 20px #14D356;
+}
+.image5 {
+	width: 100%;
+	margin-left: 30px;
+	margin-right: 30px;
+	box-shadow: 20px 20px #14D356;
+}
+.image6 {
+	width: 100%;
+	box-shadow: 20px 20px #14D356;
+}
+.image7 {
+	width: 100%;
+}
+.image8 {
+	width: 90%;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.body2 {
+	text-align: center;
+	padding-right: 5em;
+}
 
 /*PHOTOGRAPHY PAGE*/
 .image {
@@ -400,5 +485,3 @@ h2 {
 p {
     text-align: left;
 }
-
-
