@@ -12,7 +12,7 @@ body {
 
 /* Navigation Bar */
 #nav {
-    background-color: white;
+    background-color: lavenderblush;
     color: white;
     text-align: center;
     width: 100%;
@@ -21,6 +21,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     position: sticky;
 	top: 0;
+	z-index: 1;
 }
 .button {
     color: dimgrey; 
@@ -34,7 +35,7 @@ body {
 #alive3 {color: #14D356;} /* green */
 #alive4 {color: #394EEF;} /* blue */
 #alive5 {color: #EB23B5;} /* pink */
-#alive6 {color: #C01DF0;} /* purple */
+#alive6 {color: #C01DF0;} /* purple 726daf */ 
 #alive7 {color: #2BD6FF;} /* teal */
 
 a{
@@ -134,13 +135,15 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 }
 
 /* HOME PAGE */
+#title {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 h1.title {
     color: #FDE636;
 	margin: 25px 0;
-}
-#bob {
-    width: 100%;
-    z-index: -2;
+	text-align: left;
 }
 h1 {
     z-index: 3;
@@ -148,15 +151,68 @@ h1 {
     text-align: left;
     float: center;
 }
-
-#me {
-    width: 50%;
-    padding-top: 50px;
-    float: left;
+#sub-words {
+	color: #726daf;
+/*	color: antiquewhite;*/
+	text-align: center;
+	padding-left: 0;
+	font-size: 200%;
 }
-p.bio {
-    text-align: center;
-    padding-right: 40px;
+#sub-p {
+	text-align: left;
+	padding: 28px 28px;
+	font-size: 125%;
+	text-align: justify;
+}
+#Wrapped {
+	display : flex;
+	flex-direction: row;
+	position: relative
+}
+
+@media(max-width: 1000px){	
+	#Wrapped {
+		flex-direction: column;
+	}
+}
+#Wrapped2{
+	position: relative;
+	flex: 1;
+}
+#words{
+	float: left;
+	flex: 1;
+	background-color: lavender;
+	opacity: 0.9;
+	display:flex;
+	flex-direction: column;
+	text-align: justify;
+}
+#kick {
+    flex: 1;
+    z-index: -1;
+	flex-shrink: 1;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+@media(max-width: 1000px){	
+	#kick {
+		width: 100%;
+		height: inherit;
+		position: static;
+	}
+}
+
+#bio{
+	float: right;
+	text-align: center;
+	flex: 1;
+	background-color: lavender;
+	opacity: 0.9;
 }
 
 /*ABOUT PAGE*/
@@ -469,7 +525,6 @@ p.resume2 {
 #pic1 {
     width: 40%;
     padding: 25px;
-    padding-top: 100px;
     float: left;
 
 }
