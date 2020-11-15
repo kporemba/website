@@ -20,6 +20,10 @@ body {
 #croch-button{
 	align-self: center;
 }
+#centerbutt {
+	text-align: center;
+	padding: 0;
+}
 
 .footer {
   	position: fixed;
@@ -50,6 +54,7 @@ body {
     margin-right: 20px;
     width: 100%;
 }
+
 /* a:hover {color:#F7D129} */
 #alive1 {color: #726daf;} /*yellow */
 #alive2 {color: #EF2B2B;} /* red  */
@@ -61,6 +66,19 @@ body {
 
 a{
 	text-decoration: unset;
+}
+
+#cat {
+	margin: 0 25px 0 0;
+}
+.cat-love {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.cat-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
 }
 
 a:not(.button):not(.dropbtn):not(.exclude-style) {
