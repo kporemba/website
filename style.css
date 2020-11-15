@@ -370,7 +370,9 @@ h1 {
 .body {
 	text-align: left;
 	width: 30em;
-	padding-right: 3em;
+	padding-left: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 p.resume {
     text-align: left;
@@ -423,7 +425,6 @@ p.small {
 	max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
 }
 
 .about-top{
@@ -606,6 +607,10 @@ h3 {
 .giftextparagraph{
 	text-align: center;
 }
+
+#foot{
+	margin-bottom: 4em;
+}
 /* TD Page */
 #td {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -654,6 +659,11 @@ h3 {
 .body2 {
 	text-align: center;
 	padding-right: 5em;
+}
+
+#mg {
+	color: #14D356;
+	text-align: center;
 }
 
 /*PHOTOGRAPHY PAGE*/
