@@ -212,22 +212,43 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 }
 
 /* HOME PAGE */
+.title-overview {
+	font-size: 20px;
+}
 #title {
 	position: absolute;
 	width: 100%;
 	top:0;
 	left:0;
 }
+
+#title99-class {
+	color: #FDE636;
+	font-style: italic;
+	margin: 15px 0px 25px 0px;
+	padding-left: 100px;
+	background-color: darkseagreen;
+    font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	margin-left: auto;
+/*	background-color: aliceblue;*/
+/*	animation: up ease 4s;*/
+	animation-delay: 5s;
+	animation-fill-mode: backwards;
+	font-size: 30px;
+	float: center;
+}
+
 h1.title {
     color: #FDE636;
-	margin: 25px 0;
+	margin: 25px 0px -15px 0px;
     font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	margin-left: auto;
 	animation: up ease 4s;
 	animation-delay: 5s;
 	animation-fill-mode: backwards;
-	
+/*	margin: unset;*/
 	font-size: 70px;
 	float: center;
 }
@@ -337,6 +358,22 @@ h1 {
 	margin-top: -68px;
 }
 
+#high {
+	max-width: 500px;
+	margin-left: 3em;
+}
+
+.row1 {
+	display: flex;
+	background-color: aliceblue;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 8px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 #bio{
 	float: right;
@@ -483,7 +520,7 @@ p.small {
 }
 .about-left{
 	flex: 2;
-	padding: 40px;
+	padding: 40px 40px 0px 40px;
 }
 .about-block{
 	margin: unset;
@@ -730,6 +767,87 @@ h3 {
 
 #mg {
 	color: #14D356;
+	text-align: center;
+}
+
+/*Contemporary Art*/
+#small_title_blue {
+/*	margin-top: -30px;*/
+	text-align: center;
+    color: #394EEF;
+	font-size: 25px;
+}
+#about-p-blue {
+	margin-left: 90px;
+	max-width: 1000px;
+	text-align: justify;
+}
+.small-blue {
+	text-align: center;
+    color: grey;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column3 {
+  padding: 10px 10px 10px 0;
+  display: inline-block
+}
+
+/* Style the images inside the grid */
+.column3 img {
+  	opacity: 1;
+  	cursor: pointer;
+	max-height: 150px;
+}
+
+.column3 img:hover {
+  opacity: 0.5;
+}
+#expandedImg, #expandedImg1, #expandedImg2, #expandedImg3, #expandedImg4, #expandedImg5, #expandedImg6, #expandedImg7, #expandedImg8 {
+	max-height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	margin: 0 12.5%;
+	overflow-x: scroll;
+	display: inline-block;
+		white-space: nowrap;
+	width: 75%;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+  margin: 0 12.5%;
+}
+
+/* Expanding image text */
+#imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: blue;
+	font-size: 20px;
+	background-color: whitesmoke;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: blue;
+	background-color: whitesmoke;
+  font-size: 35px;
+  cursor: pointer;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 }
 
@@ -1034,8 +1152,9 @@ strong2 {
 }
 */
 h2 {
-    color: #C01DF0;
+	color: #FDE636;
 }
+
 p {
     text-align: left;
 }
