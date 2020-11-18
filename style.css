@@ -771,6 +771,10 @@ h3 {
 }
 
 /*Contemporary Art*/
+.art-image {
+	max-height: 350px;
+/*	margin-top: 50px;*/
+}
 #small_title_blue {
 /*	margin-top: -30px;*/
 	text-align: center;
@@ -803,7 +807,7 @@ h3 {
 .column3 img:hover {
   opacity: 0.5;
 }
-#expandedImg, #expandedImg1, #expandedImg2, #expandedImg3, #expandedImg4, #expandedImg5, #expandedImg6, #expandedImg7, #expandedImg8 {
+#expandedImg, #expandedImg1, #expandedImg2, #expandedImg3, #expandedImg4, #expandedImg5, #expandedImg6, #expandedImg7, #expandedImg8, #expandedImg9, #expandedImg10, #expandedImg11 {
 	max-height: 400px;
 	display: block;
 	margin-left: auto;
