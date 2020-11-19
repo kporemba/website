@@ -34,6 +34,30 @@
             <a href="cv.html" class="button">CV</a>
             <a href="contact.html" class="button">CONTACT</a>
         </div>
+		
+		<script> function myFunc(switcher){
+				var text = "What's one thing to know about me and my work ethic?";
+				if (!switcher) {
+					text = "I believe in the 70/30 rule. Start every position with a midset of 30% expertise and 70% with the desire to learn; the goal in every new venture is to broaden my knowledge and expand my skill set";
+				}
+				el = document.getElementById("circ-text-left");
+				el.innerText = text;
+			}
+			function myFunc2(switcher){
+				var text = "Wanna know how cool I am?????";
+				if (!switcher) {
+					text = "That's on secret I'll never tell. XOXO -Gossip Girl";
+				}
+				el = document.getElementById("circ-text-right");
+				el.innerText = text;
+			}
+			function myFuncLoad(){
+				myFunc(true);
+				myFunc2(true);
+			}
+			window.onload = myFuncLoad;
+		
+		</script>
        
 		<div style="position: relative">
 			<img id="kick-home" src="images/Kick3.png">
@@ -42,8 +66,8 @@
 <!--				<hr size="2" width="90%" color="#FDE636">  -->
 				<h2 id="title99-class">Digital Content Creator & Contemporary Artist</h2>
 				<div class="circ-container">
-					<div class="circ"><div class="circ-text">What’s one thing to know about me and my work ethic?</div></div>
-					<div class="circ"><div class="circ-text">It’s that I believe in the 70/30 rule. Go into every position with 30% expertise and 70% desire to learn and to broaden knowledge and skill sets. </div></div>
+					<div class="circ"  onmouseenter="myFunc(false);" onmouseleave="myFunc(true);"><div id="circ-text-left" class="circ-text"></div></div>
+					<div class="circ" onmouseenter="myFunc2(false);" onmouseleave="myFunc2(true);"><div id = "circ-text-right" class="circ-text"></div></div>
 				</div>
 <!--
 				<div class="circ-container">
@@ -59,17 +83,17 @@
 		<div class="tiles"> 
 		<div id="4" class="tile2">
 			<h3 id="sub-words">Digital Content Creator</h3>
-			<p id="no-left">I create visuals, written content and websites with creativity and curiousity. I strive to make unqiue work for every project I take on.</p>
+			<p id="no-left">I produce creative visual, written content and websites to attract audiences and instill curiousity. I strive to bring new ideas and make every project stand out for its uniqueness.</p>
 		</div>
 			
 		<div id="5" class="tile2">
-			<h3 id="sub-words">Designer</h3>
-			<p id="no-left">I focus on creating meanigful experiences with beautiful UX. Ensuring users gain value from my content and designs is of utmost importance to me.</p>
+			<h3 id="sub-words">Contemporary Artist</h3>
+			<p id="no-left">At 21, I have participated in 13 solo and group exhibitions across Toronto, curated 8 shows, published 1 book and have been featured in 2 articles.<br><br><a id="croch-button" href="contemporaryart.html">Contemporary Art Gallery</a></p>
 		</div>
 			
 		<div id="6" class="tile2">
-			<h3 id="sub-words">Contemporary Artist</h3>
-			<p id="no-left">At 21, I have participated in 13 solo and group exhibitions across Toronto, curated 8 shows, published 1 book and have been featured in 2 articles.<br><br><a id="croch-button" href="contemporaryart.html">Contemporary Art Gallery</a></p>
+			<h3 id="sub-words">Curator of Experiences</h3>
+			<p id="no-left">I focus on creating meaningful experiences with beautiful UX. Ensuring users gain value from my content and designs is of utmost importance to me.</p>
 <!--
 			<h3 id="sub-words">Amature Crocheter</h3>
 			<p id="no-left">In my free time I keep busy by crocheting clothes, blankets and other items. You'll always find me at the local craft store buying more yarn!<br><br><a id="croch-button" href="crochet.html">Crochet Photo Gallery</a></p>
@@ -86,7 +110,7 @@
 			</div>
 			<div class="column">
 				<h3 class="tile-overview">Project Lead, Photographer</h3>
-			<p>This project was created to fill a gap in the research projects online presence. <br>It explores how you can showcase the history of an analog project, digitally. <br>Click below to see the results of the project!<br> <br> <a class= "tile-see-more" href="MARGOT.html">See More</a>
+			<p>This project was created to fill a gap in the research projects online presence. It explores how you can showcase the history of an analog project, digitally. Click below to see the results of the project!<br> <br> <a class= "tile-see-more" href="MARGOT.html">See More</a>
 			</div>
 		</div>
 	
@@ -108,15 +132,15 @@
 		<div id="3" class="tile">
 		<img id="number" src="images/3bp.png">
 			<h3 class="tile-overview">Project Lead, Graphic Design</h3>
-			<p><br>This poster designed for a client was meant to capture their personality.Click to see the design process.<br> <br></p>
+			<p><br>This poster designed for a client was meant to capture their personality. Click to see the design process.<br> <br></p>
 			<a href="brandingposter.html" class="exclude-style"><img id="hor" src="images/ip.png"></a><p><a class= "tile-see-more" href="brandingposter.html">See More</a></p>
 		</div>
 			
 		<div id="3" class="tile">
 		<img id="number" src="images/4td.png">
 			<h3 class="tile-overview">Lead Designer, Researcher</h3>
-			<p><br><br>A strategic business case that involved identifying and improving a technological gap in an internal process which was presented to senior leadership with a fully branded solution. Click to see how our team tackled it!<br></p>
-			<a href="td-aws.html" class="exclude-style"><img id="hor" src="images/iaws.png"></a><p><a class= "tile-see-more" href="td-aws.html">See More</a></p>
+			<p><br><br>A strategic business case that involved identifying and improving a technological gap in an internal process which was presented to senior leadership with a fully branded solution. Click to see how our team tackled it!<br><br><br></p>
+			<a href="td-aws.html" class="exclude-style"><img id="hor" src="images/iaws.png"></a><p><br><br><a class= "tile-see-more" href="td-aws.html">See More</a></p>
 		</div>
 			
 <!--
