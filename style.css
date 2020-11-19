@@ -226,7 +226,7 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 	color: #FDE636;
 	font-style: italic;
 	margin: 15px 0px 25px 0px;
-	padding-left: 100px;
+	padding-left: 60px;
 	background-color: darkseagreen;
     font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
