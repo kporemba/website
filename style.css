@@ -406,6 +406,11 @@ h1 {
 	padding: 10px;
 	height: 100%;
 }
+.images4 {
+	width: 20%;
+	padding: 10px;
+	height: 100%;
+}
 .image3 {
 	width: 85%;
 	margin-left: 10px;
@@ -421,11 +426,36 @@ h1 {
 .gallery{
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;p.resume {
+	flex-wrap: wrap;
     text-align: center;
     padding-right: 20px;
     color: #EF2B2B;
 }
+.gallery2{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    text-align: center;
+    padding-right: 20px;
+    color: #EF2B2B;
+}
+.giffy {
+	max-width: 320px;
+	padding: 10px;
+	max-height: 320px;
+}
+/*
+.gallery4{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+    text-align: center;
+    padding-right: 20px;
+    color: #EF2B2B;
+	max-height: 300em;
+	max-width: 300em;
+}
+*/
 }
 .body {
 	text-align: justify;
@@ -516,12 +546,32 @@ p.small {
 .flex-container#large{
 	flex:2;
 }
+.flex-container-cv {
+	display: flex;
+	flex-wrap: wrap;
+}
+.cv-left{
+	flex-basis: 200px;
+	flex-grow:1;
+	padding: 40px 40px 0px 40px;
+}
+.cv-right{
+	flex-basis: 300px;
+	flex-grow: 1;
+	padding-left: 40px;
+}
 .flex-container-about {
 	display: flex;
+	flex-wrap: wrap-reverse;
 }
 .about-left{
-	flex: 2;
+	flex-basis: 200px;
+	flex-grow:1;
 	padding: 40px 40px 0px 40px;
+}
+.about-right{
+	flex-basis: 300px;
+	flex-grow: 1;
 }
 .about-block{
 	margin: unset;
@@ -530,12 +580,8 @@ p.small {
 	padding-left: unset;
 	max-width: 600px;
 }
-
-.about-right{
-	flex: 3;
-}
 .about-image {
-	max-height: 400px;
+	width: 100%;
 }
 
 /*EDUCATION PAGE*/
@@ -815,7 +861,7 @@ h3 {
 }
 
 .art-image {
-	max-height: 350px;
+	width: 100%
 /*	margin-top: 50px;*/
 }
 #small_title_blue {
@@ -874,7 +920,7 @@ h3 {
 }
 
 /* Expanding image text */
-#imgtext {
+#imgtext, #imgtext1, #imgtext2, #imgtext3, #imgtext4, #imgtext5, #imgtext6, #imgtext7, #imgtext8, #imgtext9, #imgtext10, #imgtext11 {
 	position: absolute;
 	bottom: 15px;
 	left: 15px;
