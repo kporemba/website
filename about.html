@@ -24,11 +24,12 @@
                 <div class="dropdown">
             	<a id="proj-button" class="button" href="projects.html">PROJECTS</a>
                         <div class="dropdown-content">
-							<a class="exclude-style" href="mts-ai.html">RESISTANCE AGAINST AI</a>
-                            <a class="exclude-style" href="websiteredesign.html">WEBSITE REDESIGN</a>
-                    		<a class="exclude-style" href="brandingposter.html">BRANDING POSTER</a>
-							<a class="exclude-style" href="td-aws.html">TD BANK INDUSTRY PROJECT</a>
+							<a class="exclude-style" href="capstone-AWAIR.html">AWAIR - CAPSTONE</a>
 							<a class="exclude-style" href="MARGOT.html">MARGOT GALLERY</a>
+                            <a class="exclude-style" href="mts-ai.html">RESISTANCE AGAINST AI</a>
+							<a class="exclude-style" href="td-aws.html">TD BANK INDUSTRY PROJECT</a>
+							<a class="exclude-style" href="websiteredesign.html">WEBSITE REDESIGN</a>
+                    		<a class="exclude-style" href="brandingposter.html">BRANDING POSTER</a>
                         </div>
                 </div>
             <a href="contemporaryart.html" class="button">CONTEMPORARY ART</a>
@@ -162,7 +163,71 @@
 			<h3 id="small_title">Amateur Crocheter</h3>
 			<p id="about-p" class="small">Due to the COVID-19 pandemic, I found myself looking for a hobby or something to fill my new found free time. I really needed something to keep me from sitting around all day. I started playing with fine arts but got bored quickly. It wasn't until I discovered crochet that I found something which peaked my interest. As I had never worked with yarn before, crochet seemed to be the perfect medium. Check out some of my best creations so far:</p>
 		</div>
-		
+					<script> function myFunctionc(imgs) {
+		  // Get the expanded image
+		  var expandImgc = document.getElementById("expandedImgc");
+		  // Get the image text
+		  var imgTextc = document.getElementById("imgtextc");
+		  // Use the same src in the expanded image as the image being clicked on from the grid
+		  expandImgc.src = imgs.src;
+		  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+		  imgTextc.innerHTML = imgs.alt;
+		  // Show the container element (hidden with CSS)
+		  expandImgc.parentElement.style.display = "block";
+		} 
+			</script>
+		<!-- The grid: four columns -->
+		<div class="row">
+			<div class="column3">
+			<img src="images/crochet/1.jpg" alt="Blue Tank Top" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/3.jpg" alt="Cropped Sweater Front"  onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/7.jpg" alt="Front of Appa Hat" onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/5.jpg" alt="Y2K Purse" onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/6.jpg" alt="Market Bag" onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/10.jpg" alt="Leo the Lion" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/8.jpg" alt="Back of Appa Hat"  onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/9.jpg" alt="Leo the Lion 2" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/2.jpg" alt="Back of Blue Tank Top" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/4.jpg" alt="Cropped Sweater Back" onclick="myFunctionc(this);">
+		  </div>
+		</div>
+
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImgc" >
+
+		  <!-- Image text -->
+		  <div id="imgtextc"></div>
+		</div>
+
+		<div class="gallery">
+			<img class="image2" src="images/appa.jpg"> 
+			<img class="image2" src="images/blanket">
+			<img class="image2" src="images/all.jpg">  
+		</div>
+<!--
 		<div class="gallery2">
 			<img class="giffy" src="images/blanket">
 			<img class="images4" src="images/crochet/1.jpg">  
@@ -184,9 +249,10 @@
 			<img class="image2" src="images/blue2.JPG">  
 			<img class="image2" src="images/all.jpg">  
 		</div>
+-->
 	
 		<div class="footer">
-			<p class="cat-container"><span class="cat-love">Made with &hearts; by me </span><a id="cat" href="contact.html">Let's Chat</a></p>
+			<p class="cat-container"><span class="cat-love">Coded with &hearts; by me </span><a id="cat" href="contact.html">Let's Chat</a></p>
 		</div>
     </body>
 </html> 

@@ -41,15 +41,87 @@
 	<h3 id="sub-words">My Best Crochet Projects Thus Far:</h3>
 		<p id="centerbutt"><a href="index.html">Return to Home</a></p>
 	
-		<div class="gallery">
-			<img class="image2" src="images/appa.JPG">  
-			<img class="image2" src="images/bag1.JPG">  
-			<img class="image2" src="images/bag2.JPG">  
-			<img class="image2" src="images/blue1.JPG">  
-			<img class="image2" src="images/blue2.JPG">  
-			<img class="image2" src="images/all.jpg">  
+	
+<!--
+		<div class="gallery2">
+			<img class="images4" src="images/crochet/1.jpg">  
+			<img class="images4" src="images/crochet/8.jpg">
+			<img class="images4" src="images/crochet/5.jpg">  
+			<img class="images4" src="images/crochet/6.jpg">  
+			<img class="images4" src="images/crochet/10.jpg"> 
+			<img class="images4" src="images/crochet/7.jpg">  
+			<img class="images4" src="images/crochet/9.jpg"> 
+			<img class="images4" src="images/crochet/3.jpg"> 
+			<img class="images4" src="images/crochet/2.jpg">
+		</div>
+-->
+	
+	
+			<script> function myFunctionc(imgs) {
+		  // Get the expanded image
+		  var expandImgc = document.getElementById("expandedImgc");
+		  // Get the image text
+		  var imgTextc = document.getElementById("imgtextc");
+		  // Use the same src in the expanded image as the image being clicked on from the grid
+		  expandImgc.src = imgs.src;
+		  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+		  imgTextc.innerHTML = imgs.alt;
+		  // Show the container element (hidden with CSS)
+		  expandImgc.parentElement.style.display = "block";
+		} 
+			</script>
+		<!-- The grid: four columns -->
+		<div class="row">
+			<div class="column3">
+			<img src="images/crochet/1.jpg" alt="Blue Tank Top" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/3.jpg" alt="Cropped Sweater Front"  onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/7.jpg" alt="Front of Appa Hat" onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/5.jpg" alt="Y2K Purse" onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/6.jpg" alt="Market Bag" onclick="myFunctionc(this);">
+		  </div>
+		  <div class="column3">
+			<img src="images/crochet/10.jpg" alt="Leo the Lion" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/8.jpg" alt="Back of Appa Hat"  onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/9.jpg" alt="Leo the Lion 2" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/2.jpg" alt="Back of Blue Tank Top" onclick="myFunctionc(this);">
+		  </div>
+			<div class="column3">
+			<img src="images/crochet/4.jpg" alt="Cropped Sweater Back" onclick="myFunctionc(this);">
+		  </div>
 		</div>
 
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImgc" >
+
+		  <!-- Image text -->
+		  <div id="imgtextc"></div>
+		</div>
+
+		<div class="gallery">
+			<img class="image2" src="images/appa.jpg"> 
+			<img class="image2" src="images/blanket">
+			<img class="image2" src="images/all.jpg">  
+		</div>
+	
 	
 		<div class="footer">
 		  <p class="cat-container"><span class="cat-love">Made with &hearts; by me </span><a id="cat" href="contact.html">Let's Chat</a></p>
