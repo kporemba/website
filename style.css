@@ -605,9 +605,9 @@ p.small {
 .about-right{
 	flex-grow: 1;
 }
-@media(min-width: 500px){
+@media screen and (min-width: 723px){
 	.about-right{
-		flex-basis: 300px;
+		max-width: 300px;
 	}
 }
 .about-block{
@@ -1374,14 +1374,14 @@ strong2 {
 .contact-right{
 	flex: 2;
 	padding: 40px;
+	flex-basis: 300px;
 }
 
 .pic1 {
 /*    width: 40%;*/
 /*    padding: 25px;*/
 /*    float: left;*/
-	max-height: 500px;
-	margin-left: 7em;
+	max-width: 100%;
 /*	margin-left: auto;*/
 
 }
