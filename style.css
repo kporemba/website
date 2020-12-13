@@ -362,10 +362,12 @@ h1 {
 
 #high {
 	width: 100%;
+	
 }
 
 #capstone-img {
 	max-width: 200px;
+	margin: 0 auto;
 }
 
 .row1 {
@@ -419,14 +421,14 @@ h1 {
 
 @media screen and (min-width: 723px){
 	.circ {
-	border-radius: 50%;
-	background-color: #FDE636;
-	width: 300px;
-	height: 300px;
-	margin: 0 50px;
-	display:flex;
-	padding: unset;
-}
+		border-radius: 50%;
+		background-color: #FDE636;
+		width: 300px;
+		height: 300px;
+		margin: 0 50px;
+		display:flex;
+		padding: unset;
+	}
 	.circ-text {
 	padding: 50px;
 	color: grey;
@@ -1050,7 +1052,6 @@ h3 {
 }
 .td-top-init{
 	display: flex;
-	margin-bottom: 100px;
 }
 .td-flex-container{
 	flex:1;
@@ -1665,8 +1666,6 @@ p.resume2 {
 #title11-class {
 	color: #C01DF0;
 	text-align: left;
-/*	padding-left: 0;*/
-	padding-right: 3em;
 	font-weight: 50;
 	font-size: 30px;
 	margin: 0 0 10px 0;
@@ -1676,11 +1675,11 @@ strong2 {
 }
 .contact-left{
 	flex: 1;
-	padding: 0px 40px 0px 40px;
+	padding: 0px 20px 0px 20px;
 }
 .contact-right{
 	flex: 2;
-	padding: 0px 40px 10px 40px;
+	padding: 0px 25px 10px 20px;
 	flex-basis: 300px;
 }
 
