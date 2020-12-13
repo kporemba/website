@@ -469,7 +469,7 @@ h1 {
 	}
 	h1.title {
 	font-size: 70px;
-	animation: up ease 4s;
+/*	animation: up ease 4s;*/
 	animation-delay: 5s;
 	animation-fill-mode: backwards;
 	margin: 25px 0px -15px 0px;

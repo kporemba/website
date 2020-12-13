@@ -55,12 +55,7 @@
 				el.innerText = text;
 				el.style.fontWeight = switcher? 900: 300;
 			}
-			function myFunky(switcher){
-				el = document.getElementById("kick");
-				el.src = window.innerWidth < 723 ? "animated_kick2.gif":"animated_kick.gif";
-			}
 			function myFuncLoad(){
-				myFunky();
 				myFunc(true);
 				myFunc2(true);
 			}
@@ -87,7 +82,7 @@
 			</div>
 		</div>
 		
-		<img id="kick" class="fadeOut" src="animated_kick3.gif"> 
+		<img id="kick" class="fadeOut" src="animated_kick2.gif"> 
 		
 		<div class="tiles"> 
 		<div id="4" class="tile2">
