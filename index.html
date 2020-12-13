@@ -55,9 +55,14 @@
 				el.innerText = text;
 				el.style.fontWeight = switcher? 900: 300;
 			}
+			function myFunky(switcher){
+				el = document.getElementById("kick");
+				el.src = window.innerWidth < 723 ? "animated_kick2.gif":"animated_kick.gif";
+			}
 			function myFuncLoad(){
 				myFunc(true);
 				myFunc2(true);
+				myFunky();
 			}
 			window.onload = myFuncLoad;
 		
