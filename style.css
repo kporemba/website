@@ -937,12 +937,20 @@ h3 {
 	flex-grow: 1;
 }
 
+.flex-CPA > h3 {
+	padding-left: 30px;
+}
+
 .flex-CPA-image {
 	padding: 30px;
 	max-width: 400px;
 }
 
 @media (max-width: 700px){
+	.flex-CPA {
+	flex-basis: 300px;
+	flex-grow: 1;
+}
 	.CPA {
 		justify-content: space-around;
 	}
@@ -1611,9 +1619,7 @@ h2 {
 }
 #resume3 {
 	text-align: left;
-/*    padding-right: 20px;*/
     color: #EB23B5;
-	margin-top: 90px;
 	font-weight: 50;
 }
 h2.cvh2 {
