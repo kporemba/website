@@ -226,7 +226,7 @@ a:not(.button):not(.dropbtn):not(.exclude-style) {
 #title99-class {
 	color: #FDE636;
 	font-style: italic;
-	margin: 15px 0px 325px 0px;
+	margin: 15px 0px 30vh 0px;
 	padding-left: 0;
 	background-color: darkseagreen;
     font-family: 'Roboto Condensed', sans-serif;
