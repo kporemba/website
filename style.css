@@ -504,10 +504,11 @@ h1 {
 	box-shadow: 20px 20px red;
 }
 .image9 {
-	width: 93%;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px;
+	width: 80%;
+	height: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 0px 10px 0;
 }
 .gallery{
 	display: flex;
@@ -699,6 +700,12 @@ p.small {
 		white-space: nowrap;
 		width: -webkit-fill-available;
 	}
+	.image9 {
+	width: 93%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
 }
 .about-block{
 	margin: unset;
