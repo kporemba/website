@@ -1,162 +1,185 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" href="images/KP.png"/> 
-        <title>Krystyna Poremba</title>
-        <link rel="Stylesheet" href="style.css" type="text/css"> 
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto|Roboto+Condensed" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, intiial-scale=1">
-    </head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<head>
+	<link rel="icon" href="images/KP.png" />
+	<title>Krystyna Poremba</title>
+	<link rel="Stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto|Roboto+Condensed" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, intiial-scale=1">
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156068506-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-156068506-1');
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'UA-156068506-1');
 </script>
 
-    <body>
-        <div id="nav"> 
-            <a id="alive1" href="index.html" class="button">HOME</a>
-            <a href="about.html" class="button">ABOUT</a>
-			<a href="education.html" class="button">EDUCATION</a>
-            <div class="dropdown">
-            	<a id="proj-button" class="button" href="projects.html">PROJECTS</a>
-                <div class="dropdown-content">
-					<a class="exclude-style" href="capstone-AWAIR.html">AWAIR - CAPSTONE</a>
-							<a class="exclude-style" href="MARGOT.html">MARGOT GALLERY</a>
-                            <a class="exclude-style" href="mts-ai.html">RESISTANCE AGAINST AI</a>
-							<a class="exclude-style" href="td-aws.html">TD BANK INDUSTRY PROJECT</a>
-							<a class="exclude-style" href="websiteredesign.html">WEBSITE REDESIGN</a>
-                    		<a class="exclude-style" href="brandingposter.html">BRANDING POSTER</a>
-                </div>
-            </div>
-            <a href="contemporaryart.html" class="button">CONTEMPORARY ART</a>
-            <a href="cv.html" class="button">CV</a>
-            <a href="contact.html" class="button">CONTACT</a>
-        </div>
-		
-		<script> function myFunc(switcher){
-				var text = "What's one thing to know about me and my work ethic?";
-				if (!switcher) {
-					text = "I believe in the 70/30 rule. Start every position with 30% expertise and 70% desire to learn; the goal in every new venture is to broaden my knowledge and expand my skill set.";
-				}
-				el = document.getElementById("circ-text-left");
-				el.innerText = text;
-				el.style.fontWeight = switcher? 900: 300;
+<body>
+	<div id="nav">
+		<a id="alive1" href="index.html" class="button">HOME</a>
+		<a href="about.html" class="button">ABOUT</a>
+		<!-- <a href="education.html" class="button">EDUCATION</a> -->
+		<div class="dropdown">
+			<a id="proj-button" class="button" href="projects.html">PROJECTS</a>
+			<div class="dropdown-content">
+				<a class="exclude-style" href="capstone-AWAIR.html">AWAIR - CAPSTONE</a>
+				<a class="exclude-style" href="MARGOT.html">MARGOT GALLERY</a>
+				<a class="exclude-style" href="mts-ai.html">RESISTANCE AGAINST AI</a>
+				<a class="exclude-style" href="td-aws.html">TD BANK INDUSTRY PROJECT</a>
+				<a class="exclude-style" href="websiteredesign.html">WEBSITE REDESIGN</a>
+				<a class="exclude-style" href="brandingposter.html">BRANDING POSTER</a>
+			</div>
+		</div>
+		<a href="contemporaryart.html" class="button">CONTEMPORARY ART</a>
+		<a href="cv.html" class="button">CV</a>
+		<a href="contact.html" class="button">CONTACT</a>
+	</div>
+
+	<script> function myFunc(switcher) {
+			var text = "What's one thing to know about me and my work ethic?";
+			if (!switcher) {
+				text = "I believe in the 70/30 rule. Start every position with 30% expertise and 70% desire to learn; the goal in every new venture is to broaden my knowledge and expand my skill set.";
 			}
-			function myFunc2(switcher){
-				var text = "Want to know my most important values?";
-				if (!switcher) {
-					text = "To be my own person, to not be afraid to step outside of the box, and to never stop imagining.";
-				}
-				el = document.getElementById("circ-text-right");
-				el.innerText = text;
-				el.style.fontWeight = switcher? 900: 300;
+			el = document.getElementById("circ-text-left");
+			el.innerText = text;
+			el.style.fontWeight = switcher ? 900 : 300;
+		}
+		function myFunc2(switcher) {
+			var text = "Want to know my most important values?";
+			if (!switcher) {
+				text = "To be my own person, to not be afraid to step outside of the box, and to never stop imagining.";
 			}
-			function myFuncLoad(){
-				myFunc(true);
-				myFunc2(true);
-			}
-			window.onload = myFuncLoad;
-		
-		</script>
-       
-		<div style="position: relative">
-			<img id="kick-home" src="images/Kick3.png">
-			<div id="title">	
-				<h1 class="title">KRYSTYNA POREMBA</h1>
-<!--				<hr size="2" width="90%" color="#FDE636">  -->
-				<h2 id="title99-class">Digital Content Creator & Contemporary Artist</h2>
-				<div class="circ-container">
-					<div class="circ"  onclick="myFunc(false);" onmouseenter = "myFunc(false);" onmouseleave="myFunc(true);"><div id="circ-text-left" class="circ-text"></div></div>
-					<div class="circ" onclick="myFunc2(false);" onmouseenter = "myFunc2(false);" onmouseleave="myFunc2(true);"><div id = "circ-text-right" class="circ-text"></div></div>
+			el = document.getElementById("circ-text-right");
+			el.innerText = text;
+			el.style.fontWeight = switcher ? 900 : 300;
+		}
+		function myFuncLoad() {
+			myFunc(true);
+			myFunc2(true);
+		}
+		window.onload = myFuncLoad;
+
+	</script>
+
+	<div style="position: relative">
+		<img id="kick-home" src="images/Kick3.png">
+		<div id="title">
+			<h1 class="title">KRYSTYNA POREMBA</h1>
+			<!--				<hr size="2" width="90%" color="#FDE636">  -->
+			<h2 id="title99-class">Digital Content Creator & Software Engineer</h2>
+			<div class="circ-container">
+				<div class="circ" onclick="myFunc(false);" onmouseenter="myFunc(false);" onmouseleave="myFunc(true);">
+					<div id="circ-text-left" class="circ-text"></div>
 				</div>
-<!--
+				<div class="circ" onclick="myFunc2(false);" onmouseenter="myFunc2(false);"
+					onmouseleave="myFunc2(true);">
+					<div id="circ-text-right" class="circ-text"></div>
+				</div>
+			</div>
+			<!--
 				<div class="circ-container">
 					<div class="rec"><div class="rec-text">I finish my work before or when expected.</div></div>
 					<div class="rec"><div class="rec-text">I am always looking for more stimulation & deliverables.</div></div>
 				</div>
 -->
-			</div>
 		</div>
-		
-		<img id="kick" class="fadeOut" src="animated_kick3.gif">
-		
-		<div class="tiles"> 
+	</div>
+
+	<img id="kick" class="fadeOut" src="animated_kick3.gif">
+
+	<div class="tiles">
 		<div id="4" class="tile2">
 			<h3 id="sub-words">Digital Content Creator</h3>
-			<p id="no-left">I produce creative visual, written content and websites to attract audiences and instill curiousity. I strive to bring new ideas and make every project stand out for its uniqueness.</p>
+			<p id="no-left">I produce creative visual, written content and websites to attract audiences and instill
+				curiousity. I strive to bring new ideas and make every project stand out for its uniqueness.</p>
 		</div>
-			
+
 		<div id="5" class="tile2">
-			<h3 id="sub-words">Contemporary Artist</h3>
-			<p id="no-left">I have participated in 13 solo and group exhibitions across Toronto, curated 8 shows, published 1 book and have been featured in 2 articles.<br><br><a id="croch-button" href="contemporaryart.html">Contemporary Art Gallery</a></p>
+			<h3 id="sub-words">Software Engineer</h3>
+			<p id="no-left">As a Brainstation Bootcamp graduate, I have learned in a fast paced environment and acquired
+				an in depth knowledge of React, Javascript, Express and Sass.</p>
 		</div>
-			
+
 		<div id="6" class="tile2">
 			<h3 id="sub-words">Curator of Experiences</h3>
-			<p id="no-left">I focus on creating meaningful experiences with beautiful UX. Ensuring users gain value from my content and designs is of utmost importance to me.</p>
+			<p id="no-left">I focus on creating meaningful experiences with beautiful UX. Ensuring users gain value from
+				my content and designs is of utmost importance to me.</p>
 
 		</div>
-			
+
+	</div>
+
+	<h3 id="sub-words">Highlighted Projects:</h3>
+
+	<div class="row-margot">
+		<div class="column-margot" id="capstone-img">
+			<a href="capstone-AWAIR.html" class="exclude-style"><img id="high" src="images/iawair.png"></a>
 		</div>
-		
-		<h3 id="sub-words">Highlighted Projects:</h3>
-		
-		<div class="row-margot">
-  			<div class="column-margot" id="capstone-img">
-				<a href="capstone-AWAIR.html" class="exclude-style"><img id="high" src="images/iawair.png"></a>
-			</div>
-			<div class="column-margot">
-				<h2 class="tile-titles2">CAPSTONE - AWAIR</h2>
-				<h3 class="tile-overview-margot">Project Manager, Designer</h3>
-				<p class="text-margot">A capstone project targeted towards empowering and educating dense cities about air quality in their cities. Click below to see the results of the project!<br> <br> <a class= "tile-see-more" href="capstone-AWAIR.html">See More</a>
-			</div>
+		<div class="column-margot">
+			<h2 class="tile-titles2">CAPSTONE - AWAIR</h2>
+			<h3 class="tile-overview-margot">Project Manager, Designer</h3>
+			<p class="text-margot">A capstone project targeted towards empowering and educating dense cities about air
+				quality in their cities. Click below to see the results of the project!<br> <br> <a
+					class="tile-see-more" href="capstone-AWAIR.html">See More</a>
 		</div>
-	
-       <div class="tiles">
+	</div>
+
+	<div class="tiles">
 		<div id="3" class="tile">
 			<h2 class="tile-titles2">MARGOT GALLERY</h2>
 			<h3 class="tile-overview">Project Lead, Photographer</h3>
-			<p>This project was created to fill a gap in the research projects online presence. It explores how you can showcase the history of an analog project, digitally. <br>Click below to see the results of the project!<br> <br><br><a class= "tile-see-more" href="MARGOT.html">See More</a></p>
+			<p>This project was created to fill a gap in the research projects online presence. It explores how you can
+				showcase the history of an analog project, digitally. <br>Click below to see the results of the
+				project!<br> <br><br><a class="tile-see-more" href="MARGOT.html">See More</a></p>
 			<a href="MARGOT.html" class="exclude-style"><img id="hor" src="images/imargot.png"></a>
 		</div>
-			
+
 		<div id="3" class="tile">
 			<h2 class="tile-titles">WEBSITE REDESIGN</h2>
 			<h3 class="tile-overview">CSS Lead, HTML Editor, Responsive Design Lead</h3>
-			<p>This project involved the complete re-design of a local field hockey teams website. As a first time coder, this was a challenge.<br> Click to see how I made it work!<br><br><br><a class= "tile-see-more" href="websiteredesign.html">See More</a></p>
+			<p>This project involved the complete re-design of a local field hockey teams website. As a first time
+				coder, this was a challenge.<br> Click to see how I made it work!<br><br><br><a class="tile-see-more"
+					href="websiteredesign.html">See More</a></p>
 			<a href="websiteredesign.html" class="exclude-style"><img id="hor" src="images/iweb.png"></a>
 		</div>
-			
+
 		<div id="1" class="tile">
 			<h2 class="tile-titles2">RESISTANCE AGAINST AI</h2>
 			<h3 class="tile-overview">Researcher, Designer, Writer</h3>
-			<p>A submission to the Map the System competition hosted by Oxford University. This team project was completed remotely during the COVID-19 pandemic. Click to see our solution to the resistance to AI! <br> <br><a class= "tile-see-more" href="mts-ai.html">See More</a></p>
-			<a href="mts-ai.html" class="exclude-style"><img id="hor" href="mts-ai.html" src="images/iai.png" ></a>
+			<p>A submission to the Map the System competition hosted by Oxford University. This team project was
+				completed remotely during the COVID-19 pandemic. Click to see our solution to the resistance to AI! <br>
+				<br><a class="tile-see-more" href="mts-ai.html">See More</a>
+			</p>
+			<a href="mts-ai.html" class="exclude-style"><img id="hor" href="mts-ai.html" src="images/iai.png"></a>
 		</div>
-		
-		<div id="3" class="tile">
+
+		<!-- <div id="3" class="tile">
 			<h2 class="tile-titles">BRANDING POSTER</h2>
 			<h3 class="tile-overview">Project Lead, Graphic Design</h3>
-			<p>This poster designed for a client was meant to capture their personality.<br> <br>Click to see the design process.<br> <br><br><a class= "tile-see-more" href="brandingposter.html">See More</a></p>
+			<p>This poster designed for a client was meant to capture their personality.<br> <br>Click to see the design
+				process.<br> <br><br><a class="tile-see-more" href="brandingposter.html">See More</a></p>
 			<a href="brandingposter.html" class="exclude-style"><img id="hor" src="images/ip.png"></a>
-		</div>
-			
-		<div id="3" class="tile">
+		</div> -->
+
+		<!-- <div id="3" class="tile">
 			<h2 class="tile-titles2">TD BANK INDUSTRY PROJECT</h2>
 			<h3 class="tile-overview">Lead Designer, Researcher</h3>
-			<p>A strategic business case that involved identifying and improving a technological gap in an internal process which was presented to senior leadership with a fully branded solution. Click to see how our team tackled it!<br> <br><br><a class= "tile-see-more" href="td-aws.html">See More</a></p>
+			<p>A strategic business case that involved identifying and improving a technological gap in an internal
+				process which was presented to senior leadership with a fully branded solution. Click to see how our
+				team tackled it!<br> <br><br><a class="tile-see-more" href="td-aws.html">See More</a></p>
 			<a href="td-aws.html" class="exclude-style"><img id="hor" src="images/iaws.png"></a>
-		</div>
-		</div>
+		</div> -->
+	</div>
 
 
-		
-    </body>
-		<div class="footer" id="index-footer">
-		  <p class="cat-container"><span class="cat-love">Coded with &hearts; by me </span><a id="cat" href="contact.html">Let's Chat</a></p>
-		</div>
-</html> 
+
+</body>
+<div class="footer" id="index-footer">
+	<p class="cat-container"><span class="cat-love">Coded with &hearts; by me </span><a id="cat"
+			href="contact.html">Let's Chat</a></p>
+</div>
+
+</html>

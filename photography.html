@@ -1,527 +1,579 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" href="images/KP.png"/> 
-        <title>Krystyna Poremba</title>
-        <link rel="Stylesheet" href="style.css" type="text/css"> 
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto|Roboto+Condensed" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, intiial-scale=1">
-    </head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<head>
+	<link rel="icon" href="images/KP.png" />
+	<title>Krystyna Poremba</title>
+	<link rel="Stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto|Roboto+Condensed" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, intiial-scale=1">
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156068506-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
 
-  gtag('config', 'UA-156068506-1');
+	gtag('config', 'UA-156068506-1');
 </script>
 
-    <body>
-        <div id="nav"> 
-            <a href="index.html" class="button">HOME</a>
-            <a href="about.html" class="button"> ABOUT</a>
-			<a href="education.html" class="button">EDUCATION</a>
-                <div class="dropdown">
-            	<a id="proj-button" class="button" href="projects.html">PROJECTS</a>
-                        <div class="dropdown-content">
-							<a class="exclude-style" href="mts-ai.html">RESISTANCE AGAINST AI</a>
-                            <a class="exclude-style" href="websiteredesign.html">WEBSITE REDESIGN</a>
-                    		<a class="exclude-style" href="brandingposter.html">BRANDING POSTER</a>
-							<a class="exclude-style" href="td-aws.html">TD BANK INDUSTRY PROJECT</a>
-							<a class="exclude-style" href="MARGOT.html">MARGOT GALLERY</a>
-                        </div>
-                </div>
-            <a href="contemporaryart.html" class="button">CONTEMPORARY ART</a>
-            <a href="cv.html" class="button">CV</a>
-            <a href="contact.html" class="button">CONTACT</a>
-        </div>
-		
-		<div class="flex-container-about">
-			<div class="about-left">
-			<h1 id="title6-class">Contemporary Art</h1>
-			<h3 id="title7-class">My Photography</h3>
-				
-			<hr class = "about-block" size="10" width="10%" color="#394EEF">  
-
-			<div class="about1">
-				<p class="p-about">Below is a selected collection of my contemporary art work, click for descriptions.</p><br>
-			</div>
-				<hr size="2" width="90%" color="#394EEF"> 
+<body>
+	<div id="nav">
+		<a href="index.html" class="button">HOME</a>
+		<a href="about.html" class="button"> ABOUT</a>
+		<!-- <a href="education.html" class="button">EDUCATION</a> -->
+		<div class="dropdown">
+			<a id="proj-button" class="button" href="projects.html">PROJECTS</a>
+			<div class="dropdown-content">
+				<a class="exclude-style" href="mts-ai.html">RESISTANCE AGAINST AI</a>
+				<a class="exclude-style" href="websiteredesign.html">WEBSITE REDESIGN</a>
+				<a class="exclude-style" href="brandingposter.html">BRANDING POSTER</a>
+				<a class="exclude-style" href="td-aws.html">TD BANK INDUSTRY PROJECT</a>
+				<a class="exclude-style" href="MARGOT.html">MARGOT GALLERY</a>
 			</div>
 		</div>
-		 
-		
-		<div class="rowp">
-		  <div class="columnp">
-			 <script>
+		<a href="contemporaryart.html" class="button">CONTEMPORARY ART</a>
+		<a href="cv.html" class="button">CV</a>
+		<a href="contact.html" class="button">CONTACT</a>
+	</div>
+
+	<div class="flex-container-about">
+		<div class="about-left">
+			<h1 id="title6-class">Contemporary Art</h1>
+			<h3 id="title7-class">My Photography</h3>
+
+			<hr class="about-block" size="10" width="10%" color="#394EEF">
+
+			<div class="about1">
+				<p class="p-about">Below is a selected collection of my contemporary art work, click for descriptions.
+				</p><br>
+			</div>
+			<hr size="2" width="90%" color="#394EEF">
+		</div>
+	</div>
+
+
+	<div class="rowp">
+		<div class="columnp">
+			<script>
 				// When the user clicks on <div>, open the popup
-				 function myFunction1() {
-				    var popup = document.getElementById("myPopup1");
-				    popup.classList.add("show");
+				function myFunction1() {
+					var popup = document.getElementById("myPopup1");
+					popup.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([1,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([1, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				 }
+					popup33.classList.remove("show");
+				}
 			</script>
-			  <div>
-				  <div class="popup" onclick="myFunction1()">
-					  <img src="images/best/01.gif">
-					<span class="popuptext" id="myPopup1">"1989-2013" <br><br> This series depicts the relationship my mother and I have through clothes. The top images is her and the bottom image is me wearing the same clothes 15+ years later. This work is to showcase our relationship and the parallels in our lives.</span>
-				  </div>
-			  </div>
-			  
-			  <script>
+			<div>
+				<div class="popup" onclick="myFunction1()">
+					<img src="images/best/01.gif">
+					<span class="popuptext" id="myPopup1">"1989-2013" <br><br> This series depicts the relationship my
+						mother and I have through clothes. The top images is her and the bottom image is me wearing the
+						same clothes 15+ years later. This work is to showcase our relationship and the parallels in our
+						lives.</span>
+				</div>
+			</div>
+
+			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction2() {
-				  var popup = document.getElementById("myPopup2");
-				  popup.classList.add("show");
+					var popup = document.getElementById("myPopup2");
+					popup.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([2,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([2, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction2()">
-					  <img src="images/best/02.gif">
-					<span class="popuptext" id="myPopup2">"2000-2015" <br><br> This series depicts the relationship my mother and I have through clothes. The top images is her and the bottom image is me wearing the same clothes 15+ years later. This work is to showcase our relationship and the parallels in our lives.</span>
-				  </div>
-			  </div>
-			
-			  
-			  <script>
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction2()">
+					<img src="images/best/02.gif">
+					<span class="popuptext" id="myPopup2">"2000-2015" <br><br> This series depicts the relationship my
+						mother and I have through clothes. The top images is her and the bottom image is me wearing the
+						same clothes 15+ years later. This work is to showcase our relationship and the parallels in our
+						lives.</span>
+				</div>
+			</div>
+
+
+			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction3() {
-				  var popup = document.getElementById("myPopup3");
-				  popup.classList.add("show");
+					var popup = document.getElementById("myPopup3");
+					popup.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([3,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([3, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction3()">
-					  <img src="images/best/03.gif">
-					<span class="popuptext" id="myPopup3">"Untitled_1" <br><br> This series is based on preserving the view from my balcony before a condo is built. Multiple layers of images superimposed on each other.</span>
-				  </div>
-			  </div>
-	
-		  </div>
-		  
-			<div class="columnp">
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction3()">
+					<img src="images/best/03.gif">
+					<span class="popuptext" id="myPopup3">"Untitled_1" <br><br> This series is based on preserving the
+						view from my balcony before a condo is built. Multiple layers of images superimposed on each
+						other.</span>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="columnp">
 			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction6() {
-				  var popup2 = document.getElementById("myPopup6");
-				  popup2.classList.add("show");
+					var popup2 = document.getElementById("myPopup6");
+					popup2.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([6,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([6, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
 			</script>
-			  <div>
-				  <div class="popup2" onclick="myFunction6()">
-					  <img src="images/best/06.gif">
-					<span class="popuptext2" id="myPopup6">"Trailer 15" <br><br> This series documents the way others can individualise a home outside of their own. This 'second home' for many is an escape and is used to relax. Documentation is important because it gives life to the neighborhood of Sunset Trailer Park. This series documents the way others can individualise a home outside of their own. This 'second home' for many is an escape and is used to relax. Documentation is important because it gives life to the neighborhood of Sunset Trailer Park.</span>
-				  </div>
-			  </div>
-				
-				<script>
+			<div>
+				<div class="popup2" onclick="myFunction6()">
+					<img src="images/best/06.gif">
+					<span class="popuptext2" id="myPopup6">"Trailer 15" <br><br> This series documents the way others
+						can individualise a home outside of their own. This 'second home' for many is an escape and is
+						used to relax. Documentation is important because it gives life to the neighborhood of Sunset
+						Trailer Park. This series documents the way others can individualise a home outside of their
+						own. This 'second home' for many is an escape and is used to relax. Documentation is important
+						because it gives life to the neighborhood of Sunset Trailer Park.</span>
+				</div>
+			</div>
+
+			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction8() {
-				  var popup = document.getElementById("myPopup8");
-				  popup.classList.add("show");
+					var popup = document.getElementById("myPopup8");
+					popup.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([8,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([8, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction8()">
-					  <img src="images/best/08.gif">
-					<span class="popuptext" id="myPopup8">"Legs" <br><br> This series is depicts my first impressions of people.</span>
-				  </div>
-			  </div>
-				
-				<script>
-				// When the user clicks on <div>, open the popup
-				function myFunction9() {
-				  var popup = document.getElementById("myPopup9");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([9,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction9()">
-					  <img src="images/best/09.gif">
-					<span class="popuptext" id="myPopup9">"In 3D 1" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-				
-				<script>
-				// When the user clicks on <div>, open the popup
-				function myFunction10() {
-				  var popup = document.getElementById("myPopup10");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([10,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction10()">
-					  <img src="images/best/10.gif">
-					<span class="popuptext" id="myPopup10">"In 3D 2" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-				
-				<script>
-				// When the user clicks on <div>, open the popup
-				function myFunction11() {
-				  var popup = document.getElementById("myPopup11");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([11,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction11()">
-					  <img src="images/best/11.gif">
-					<span class="popuptext" id="myPopup11">"In 3D 3" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-		  	</div>
-		  <div class="columnp">
-			 <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction12() {
-				  var popup = document.getElementById("myPopup12");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([12,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			 </script>
-			 <div>
-				  <div class="popup" onclick="myFunction12()">
-					  <img src="images/12.jpeg">
-					<span class="popuptext" id="myPopup12">"Untitled_2" <br><br> This series is based on preserving the view from my balcony before a condo is built. Multiple layers of images superimposed on each other.</span>
-				  </div>
-			 </div>
-			 
-			 <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction13() {
-				  var popup = document.getElementById("myPopup13");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([13,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			 </script>
-			 <div>
-				  <div class="popup" onclick="myFunction13()">
-					  <img src="images/13.jpeg">
-					<span class="popuptext" id="myPopup13">"Untitled_3" <br><br> This series is based on preserving the view from my balcony before a condo is built. Multiple layers of images superimposed on each other.</span>
-				  </div>
-			 </div>
-			 
-			 <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction14() {
-				  var popup = document.getElementById("myPopup14");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([14,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			 </script>
-			 <div>
-				  <div class="popup" onclick="myFunction14()">
-					  <img src="images/14.jpeg">
-					<span class="popuptext" id="myPopup14">"Untitled_4" <br><br> This series is based on preserving the view from my balcony before a condo is built. Multiple layers of images superimposed on each other.</span>
-				  </div>
-			 </div>
-			  
-			  <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction15() {
-				  var popup = document.getElementById("myPopup15");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([15,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction15()">
-					  <img src="images/15.jpeg">
-					<span class="popuptext" id="myPopup15">"Tree in 3D" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-			 <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction16() {
-				  var popup = document.getElementById("myPopup16");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([16,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction16()">
-					  <img src="images/16.jpeg">
-					<span class="popuptext" id="myPopup16">"Boats in 3D" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-		  </div>
-		  <div class="columnp">
-			 <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction5() {
-				  var popup = document.getElementById("myPopup5");
-				  popup.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([5,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
 			</script>
-			  <div>
-				  <div class="popup" onclick="myFunction5()">
-					  <img src="images/best/05.gif">
-					<span class="popuptext" id="myPopup5">"Jackie" <br><br> This portrait of my Aunt Jackie is part of a series that depicts reach one of my mothers siblings.</span>
-				  </div>
-			  </div>
-			  
-			  <script>
+			<div>
+				<div class="popup" onclick="myFunction8()">
+					<img src="images/best/08.gif">
+					<span class="popuptext" id="myPopup8">"Legs" <br><br> This series is depicts my first impressions of
+						people.</span>
+				</div>
+			</div>
+
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction9() {
+					var popup = document.getElementById("myPopup9");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([9, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction9()">
+					<img src="images/best/09.gif">
+					<span class="popuptext" id="myPopup9">"In 3D 1" <br><br> This series brings my past explorations of
+						contained space into 3D.</span>
+				</div>
+			</div>
+
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction10() {
+					var popup = document.getElementById("myPopup10");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([10, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction10()">
+					<img src="images/best/10.gif">
+					<span class="popuptext" id="myPopup10">"In 3D 2" <br><br> This series brings my past explorations of
+						contained space into 3D.</span>
+				</div>
+			</div>
+
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction11() {
+					var popup = document.getElementById("myPopup11");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([11, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction11()">
+					<img src="images/best/11.gif">
+					<span class="popuptext" id="myPopup11">"In 3D 3" <br><br> This series brings my past explorations of
+						contained space into 3D.</span>
+				</div>
+			</div>
+		</div>
+		<div class="columnp">
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction12() {
+					var popup = document.getElementById("myPopup12");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([12, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction12()">
+					<img src="images/12.jpeg">
+					<span class="popuptext" id="myPopup12">"Untitled_2" <br><br> This series is based on preserving the
+						view from my balcony before a condo is built. Multiple layers of images superimposed on each
+						other.</span>
+				</div>
+			</div>
+
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction13() {
+					var popup = document.getElementById("myPopup13");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([13, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction13()">
+					<img src="images/13.jpeg">
+					<span class="popuptext" id="myPopup13">"Untitled_3" <br><br> This series is based on preserving the
+						view from my balcony before a condo is built. Multiple layers of images superimposed on each
+						other.</span>
+				</div>
+			</div>
+
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction14() {
+					var popup = document.getElementById("myPopup14");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([14, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction14()">
+					<img src="images/14.jpeg">
+					<span class="popuptext" id="myPopup14">"Untitled_4" <br><br> This series is based on preserving the
+						view from my balcony before a condo is built. Multiple layers of images superimposed on each
+						other.</span>
+				</div>
+			</div>
+
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction15() {
+					var popup = document.getElementById("myPopup15");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([15, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction15()">
+					<img src="images/15.jpeg">
+					<span class="popuptext" id="myPopup15">"Tree in 3D" <br><br> This series brings my past explorations
+						of contained space into 3D.</span>
+				</div>
+			</div>
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction16() {
+					var popup = document.getElementById("myPopup16");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([16, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction16()">
+					<img src="images/16.jpeg">
+					<span class="popuptext" id="myPopup16">"Boats in 3D" <br><br> This series brings my past
+						explorations of contained space into 3D.</span>
+				</div>
+			</div>
+		</div>
+		<div class="columnp">
+			<script>
+				// When the user clicks on <div>, open the popup
+				function myFunction5() {
+					var popup = document.getElementById("myPopup5");
+					popup.classList.add("show");
+					var i;
+					for (i = 1; i < 21; i++) {
+						if ([5, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
+						}
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
+				}
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction5()">
+					<img src="images/best/05.gif">
+					<span class="popuptext" id="myPopup5">"Jackie" <br><br> This portrait of my Aunt Jackie is part of a
+						series that depicts reach one of my mothers siblings.</span>
+				</div>
+			</div>
+
+			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction17() {
-				  var popup = document.getElementById("myPopup17");
-				  popup.classList.add("show");
+					var popup = document.getElementById("myPopup17");
+					popup.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([17,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([17, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction17()">
-					  <img src="images/17.jpeg">
-					<span class="popuptext" id="myPopup17">"Rocks in 3D" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-			  <script>
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction17()">
+					<img src="images/17.jpeg">
+					<span class="popuptext" id="myPopup17">"Rocks in 3D" <br><br> This series brings my past
+						explorations of contained space into 3D.</span>
+				</div>
+			</div>
+			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction18() {
-				  var popup = document.getElementById("myPopup18");
-				  popup.classList.add("show");
+					var popup = document.getElementById("myPopup18");
+					popup.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([18,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([18, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
-			  </script>
-			  <div>
-				  <div class="popup" onclick="myFunction18()">
-					  <img src="images/18.jpeg">
-					<span class="popuptext" id="myPopup18">"Escarpment In 3D" <br><br> This series brings my past explorations of contained space into 3D.</span>
-				  </div>
-			  </div>
-			  
+			</script>
+			<div>
+				<div class="popup" onclick="myFunction18()">
+					<img src="images/18.jpeg">
+					<span class="popuptext" id="myPopup18">"Escarpment In 3D" <br><br> This series brings my past
+						explorations of contained space into 3D.</span>
+				</div>
+			</div>
+
 			<script>
 				// When the user clicks on <div>, open the popup
 				function myFunction19() {
-				  var popup3 = document.getElementById("myPopup19");
-				  popup3.classList.add("show");
+					var popup3 = document.getElementById("myPopup19");
+					popup3.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([19,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([19, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
 					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
+					popup33.classList.remove("show");
 				}
 			</script>
-			  <div>
-				  <div class="popup3" onclick="myFunction19()">
-					  <img src="images/19.jpeg">
-					<span class="popuptext3" id="myPopup19">"Trailer 12" <br><br> This series documents the way others can individualise a home outside of their own. This 'second home' for many is an escape and is used to relax. Documentation is important because it gives life to the neighborhood of Sunset Trailer Park. This series documents the way others can individualise a home outside of their own. This 'second home' for many is an escape and is used to relax. Documentation is important because it gives life to the neighborhood of Sunset Trailer Park.</span>
-				  </div>
-			  </div>
-			  
-			  <script>
-				// When the user clicks on <div>, open the popup
-				function myFunction20() {
-				  var popup3 = document.getElementById("myPopup20");
-				  popup3.classList.add("show");
-					var i;
-					 for (i=1; i< 21; i++){
-						 if([20,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
-						}
-					 }
-					var popup33 = document.getElementById("myPopup33");
-				    popup33.classList.remove("show");
-				}
-			</script>
-			  <div>
-				  <div class="popup3" onclick="myFunction20()">
-					  <img src="images/20.jpeg">
-					<span class="popuptext3" id="myPopup20">"Trailer 14" <br><br> This series documents the way others can individualise a home outside of their own. This 'second home' for many is an escape and is used to relax. Documentation is important because it gives life to the neighborhood of Sunset Trailer Park. This series documents the way others can individualise a home outside of their own. This 'second home' for many is an escape and is used to relax. Documentation is important because it gives life to the neighborhood of Sunset Trailer Park.</span>
-				  </div>
-			  </div>
-		  </div>
-		</div>
-		
-		<div class="photography">
+			<div>
+				<div class="popup3" onclick="myFunction19()">
+					<img src="images/19.jpeg">
+					<span class="popuptext3" id="myPopup19">"Trailer 12" <br><br> This series documents the way others
+						can individualise a home outside of their own. This 'second home' for many is an escape and is
+						used to relax. Documentation is important because it gives life to the neighborhood of Sunset
+						Trailer Park. This series documents the way others can individualise a home outside of their
+						own. This 'second home' for many is an escape and is used to relax. Documentation is important
+						because it gives life to the neighborhood of Sunset Trailer Park.</span>
+				</div>
+			</div>
+
 			<script>
 				// When the user clicks on <div>, open the popup
-				function myFunction33() {
-				  var popup2 = document.getElementById("myPopup33");
-				  popup2.classList.add("show");
+				function myFunction20() {
+					var popup3 = document.getElementById("myPopup20");
+					popup3.classList.add("show");
 					var i;
-					 for (i=1; i< 21; i++){
-						 if([20,4,7].indexOf(i) === -1){
-						 var name ="myPopup"+ String(i);
-						 var popup = document.getElementById(name);
-				    	popup.classList.remove("show");
+					for (i = 1; i < 21; i++) {
+						if ([20, 4, 7].indexOf(i) === -1) {
+							var name = "myPopup" + String(i);
+							var popup = document.getElementById(name);
+							popup.classList.remove("show");
 						}
-					 }
+					}
+					var popup33 = document.getElementById("myPopup33");
+					popup33.classList.remove("show");
 				}
-			 </script>
-			 <div>
-				  <div class="popup2" onclick="myFunction33()">
-					  <img src="images/best/04.gif">
-						<span class="popuptext2" id="myPopup33">"13.3874423 Miles" <br><br> This image is a compilation of 2448 individual images placed in specific areas to create a shape prominent in my work. Each image is of legs with 13 different coloured socks moving in an indicated direction, with one colour making the shape. The shape is the geographic area where I grew up and I explore the connections I have in that area in my work. 2016.
-
-						In my work I play with boundaries, line and contained space to investigate how I think and act in different situations within a geographical space. The foundation for this system is based on the contained area where individuals are moving within. The graphic elements within the work are constructed to simulate connections within the environment and the networks that are created within the defined boundaries. In this piece I have devised a language by creating a database of individual images that make up the larger language. The language can be interpreted using the collection of symbols as a whole or picking individual symbols to follow.</span>
-				  </div>
-			 </div>
+			</script>
+			<div>
+				<div class="popup3" onclick="myFunction20()">
+					<img src="images/20.jpeg">
+					<span class="popuptext3" id="myPopup20">"Trailer 14" <br><br> This series documents the way others
+						can individualise a home outside of their own. This 'second home' for many is an escape and is
+						used to relax. Documentation is important because it gives life to the neighborhood of Sunset
+						Trailer Park. This series documents the way others can individualise a home outside of their
+						own. This 'second home' for many is an escape and is used to relax. Documentation is important
+						because it gives life to the neighborhood of Sunset Trailer Park.</span>
+				</div>
+			</div>
 		</div>
+	</div>
 
-		
-		<div class="footer">
-		  <p class="cat-container"><span class="cat-love">Made with &hearts; by me </span><a id="cat" href="contact.html">Let's Chat</a></p>
+	<div class="photography">
+		<script>
+			// When the user clicks on <div>, open the popup
+			function myFunction33() {
+				var popup2 = document.getElementById("myPopup33");
+				popup2.classList.add("show");
+				var i;
+				for (i = 1; i < 21; i++) {
+					if ([20, 4, 7].indexOf(i) === -1) {
+						var name = "myPopup" + String(i);
+						var popup = document.getElementById(name);
+						popup.classList.remove("show");
+					}
+				}
+			}
+		</script>
+		<div>
+			<div class="popup2" onclick="myFunction33()">
+				<img src="images/best/04.gif">
+				<span class="popuptext2" id="myPopup33">"13.3874423 Miles" <br><br> This image is a compilation of 2448
+					individual images placed in specific areas to create a shape prominent in my work. Each image is of
+					legs with 13 different coloured socks moving in an indicated direction, with one colour making the
+					shape. The shape is the geographic area where I grew up and I explore the connections I have in that
+					area in my work. 2016.
+
+					In my work I play with boundaries, line and contained space to investigate how I think and act in
+					different situations within a geographical space. The foundation for this system is based on the
+					contained area where individuals are moving within. The graphic elements within the work are
+					constructed to simulate connections within the environment and the networks that are created within
+					the defined boundaries. In this piece I have devised a language by creating a database of individual
+					images that make up the larger language. The language can be interpreted using the collection of
+					symbols as a whole or picking individual symbols to follow.</span>
+			</div>
 		</div>
-		
-    </body>
-</html> 
+	</div>
+
+
+	<div class="footer">
+		<p class="cat-container"><span class="cat-love">Made with &hearts; by me </span><a id="cat"
+				href="contact.html">Let's Chat</a></p>
+	</div>
+
+</body>
+
+</html>
